@@ -1,0 +1,16 @@
+[package]
+name = "rmp_issue"
+version = "0.1.0"
+authors = ["Kyle Clemens <git@kyleclemens.com>"]
+
+[dependencies]
+rmp-serde = "0.13"
+chrono = "0.4"
+serde_json = "1"
+
+[dependencies.serenity]
+version = "0.5"
+git = "https://github.com/zeyla/serenity"
+branch = "master"
+default_features = false
+features = ["model"]
